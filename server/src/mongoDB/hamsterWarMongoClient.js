@@ -2,8 +2,8 @@ import { MongoClient } from "mongodb";
 
 let db = undefined;
 const appDatabaseName = "Hamsterwars";
-const username = "ledei";
-const password = "LxWCnPcYmM8Iq3l6";
+const username = "*******";
+const password = "*******************";
 
 export function fetchCollection(name) {
   return fetchDatabase().collection(name);
