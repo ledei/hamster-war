@@ -14,7 +14,7 @@ function fetchDatabase() {
     return db;
   }
 
-  const url = `mongodb+srv://${username}:${password}@hamsterwar.mxbr3qq.mongodb.net/?retryWrites=true&w=majority`;
+  const url = `********************************************`;
   const client = new MongoClient(url);
 
   db = client.db(appDatabaseName); // Samling av collections (skapas dynamisk, har ej skapats explicit i atlas)
